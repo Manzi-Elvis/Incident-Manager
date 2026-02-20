@@ -258,18 +258,18 @@ For issues and questions:
 
 ## Enterprise Features
 
-✓ Dark premium theme optimized for C-suite
-✓ Role-based access control (Admin, Engineer, Client)
-✓ Real-time incident tracking
-✓ AI-powered root cause analysis
-✓ Comprehensive analytics and reporting
-✓ SLA breach detection and alerts
-✓ Activity timeline and audit logs
-✓ Comment system for collaboration
-✓ Log viewer with syntax highlighting
-✓ Mobile-responsive design
-✓ Production-grade error handling
-✓ Secure database with RLS policies
+- ✓ Dark premium theme optimized for C-suite
+- ✓ Role-based access control (Admin, Engineer, Client)
+- ✓ Real-time incident tracking
+- ✓ AI-powered root cause analysis
+- ✓ Comprehensive analytics and reporting
+- ✓ SLA breach detection and alerts
+- ✓ Activity timeline and audit logs
+- ✓ Comment system for collaboration
+- ✓ Log viewer with syntax highlighting
+- ✓ Mobile-responsive design
+- ✓ Production-grade error handling
+- ✓ Secure database with RLS policies
 
 ## Author
 
