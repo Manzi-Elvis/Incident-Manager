@@ -274,5 +274,7 @@ For issues and questions:
 ## Author
 
 MANZI RURANGIRWA Elvis
+
 Software Engineer
+
 Focused on AI-powered enterprise systems & scalable SaaS platforms
