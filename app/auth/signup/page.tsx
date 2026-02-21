@@ -91,7 +91,7 @@ export default function SignupPage() {
 
           {error && (
             <div className="mb-6 p-4 bg-destructive/10 border border-destructive/30 rounded-lg flex items-start gap-3">
-              <AlertCircle className="w-5 h-5 text-destructive flex-shrink-0 mt-0.5" />
+              <AlertCircle className="w-5 h-5 text-destructive shrink-0 mt-0.5" />
               <p className="text-sm text-destructive">{error}</p>
             </div>
           )}
