@@ -31,7 +31,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background to-secondary flex items-center justify-center px-4">
+    <div className="min-h-screen bg-linear-to-br from-background to-secondary flex items-center justify-center px-4">
       <div className="w-full max-w-md">
         {/* Logo area */}
         <div className="mb-8 text-center">
