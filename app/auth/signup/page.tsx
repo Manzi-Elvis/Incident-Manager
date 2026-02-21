@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { useAuth } from '@/lib/context/auth-context';
-import { User, Mail, Lock, Loader2, AlertCircle, CheckCircle } from 'lucide-react';
+import { User, Mail, Lock, Loader2, AlertCircle, CheckCircle, AlertTriangle } from 'lucide-react';
 
 export default function SignupPage() {
   const router = useRouter();
@@ -53,7 +53,7 @@ export default function SignupPage() {
 
   if (success) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-background to-secondary flex items-center justify-center px-4">
+      <div className="min-h-screen bg-linear-to-br from-background to-secondary flex items-center justify-center px-4">
         <div className="w-full max-w-md">
           <div className="bg-card border border-border rounded-lg p-8 shadow-lg text-center">
             <div className="flex justify-center mb-4">
