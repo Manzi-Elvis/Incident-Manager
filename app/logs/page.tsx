@@ -30,7 +30,7 @@ export default function LogsPage() {
           <div className="space-y-6">
             {/* Info Alert */}
             <div className="flex gap-3 p-4 rounded-lg border border-border bg-card/50">
-              <AlertCircle className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
+              <AlertCircle className="w-5 h-5 text-blue-400 shrink-0 mt-0.5" />
               <div>
                 <p className="text-sm font-medium text-foreground">
                   How it works
