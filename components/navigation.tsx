@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-import { useAuth } from '@/lib/context/auth-context';
+import { useAuth, UserRole } from '@/lib/context/auth-context';
 import { useTheme } from '@/lib/context/theme-context';
 import {
   AlertTriangle,
@@ -31,30 +31,36 @@ export function Navigation() {
 
   const isActive = (path: string) => pathname === path;
 
-  const navItems = [
+  type NavItem = {
+    href: string
+    label: string
+    icon: any
+    roles: UserRole[];
+  }
+  const navItems : NavItem[] = [
     {
       href: '/',
       label: 'Incidents',
       icon: AlertTriangle,
-      roles: ['admin', 'engineer', 'client'] as const,
+      roles: ['admin', 'engineer', 'client'],
     },
     {
       href: '/analytics',
       label: 'Analytics',
       icon: BarChart3,
-      roles: ['admin', 'engineer'] as const,
+      roles: ['admin', 'engineer'],
     },
     {
       href: '/logs',
       label: 'Logs',
       icon: FileText,
-      roles: ['admin', 'engineer'] as const,
+      roles: ['admin', 'engineer'],
     },
     {
       href: '/settings',
       label: 'Settings',
       icon: Settings,
-      roles: ['admin'] as const,
+      roles: ['admin'],
     },
   ];
 
