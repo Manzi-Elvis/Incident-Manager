@@ -147,7 +147,7 @@ export function AIAnalysisPanel({
             <ol className="space-y-2">
               {analysis.suggested_actions.map((action, idx) => (
                 <li key={idx} className="flex gap-3 text-sm">
-                  <span className="font-semibold text-primary flex-shrink-0">
+                  <span className="font-semibold text-primary shrink-0">
                     {idx + 1}.
                   </span>
                   <span className="text-muted-foreground">{action}</span>
