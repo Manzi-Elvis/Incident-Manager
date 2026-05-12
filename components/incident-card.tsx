@@ -45,7 +45,7 @@ export function IncidentCard({ incident }: IncidentCardProps) {
     <Link href={`/incidents/${incident.id}`}>
       <div className="group relative overflow-hidden rounded-lg border border-border bg-card p-4 hover:border-primary/50 hover:shadow-lg transition-all duration-300 cursor-pointer hover:bg-card/90">
         {/* Gradient border accent */}
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/0 via-primary/0 to-primary/0 group-hover:via-primary/10 transition-all duration-300 pointer-events-none" />
+        <div className="absolute inset-0 bg-linear-to-r from-primary/0 via-primary/0 to-primary/0 group-hover:via-primary/10 transition-all duration-300 pointer-events-none" />
 
         <div className="relative space-y-3">
           {/* Header */}
